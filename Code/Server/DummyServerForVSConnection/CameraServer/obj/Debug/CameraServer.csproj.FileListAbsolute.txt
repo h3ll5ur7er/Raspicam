@@ -1,0 +1,8 @@
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\bin\Debug\CameraServer.exe.config
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\bin\Debug\CameraServer.exe
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\bin\Debug\CameraServer.pdb
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\bin\Debug\CameraServerAPI.dll
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\bin\Debug\CameraServerAPI.pdb
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\obj\Debug\CameraServer.csprojResolveAssemblyReference.cache
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\obj\Debug\CameraServer.exe
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServer\obj\Debug\CameraServer.pdb

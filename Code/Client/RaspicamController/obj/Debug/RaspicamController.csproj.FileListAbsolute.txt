@@ -1,0 +1,65 @@
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\bin\Debug\RaspicamController.exe.config
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\bin\Debug\RaspicamController.exe
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\bin\Debug\RaspicamController.pdb
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController.csprojResolveAssemblyReference.cache
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\App.g.cs
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController_MarkupCompile.cache
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController_MarkupCompile.lref
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\App.baml
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\Resources\Bindings.baml
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\Resources\Styles.baml
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController.g.resources
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController.Properties.Resources.resources
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController.csproj.GenerateResource.Cache
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController.exe
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\RaspicamController.pdb
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\MainWindow.g.cs
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\RaspicamSettingsView.g.cs
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\MainWindow.baml
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\RaspicamSettingsView.baml
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\bin\Debug\CameraServerAPI.dll
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\bin\Debug\CameraServerAPI.pdb
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\CameraView.g.cs
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\CameraDisplayView.g.cs
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\CameraView.baml
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\CameraClient\RaspicamController\obj\Debug\MVVM\Views\CameraDisplayView.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\RaspicamController.exe.config
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\RaspicamController.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\RaspicamController.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\CameraServerAPI.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\CameraServerAPI.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.csprojResolveAssemblyReference.cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\App.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\CameraView.g.cs
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\CameraDisplayView.g.cs
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\MainWindow.g.cs
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\RaspicamSettingsView.g.cs
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\App.g.cs
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController_MarkupCompile.cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController_MarkupCompile.lref
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\CameraView.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\CameraDisplayView.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\MainWindow.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\MVVM\Views\RaspicamSettingsView.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\Resources\Bindings.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\Resources\Styles.baml
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.g.resources
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.Properties.Resources.resources
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.csproj.GenerateResource.Cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\MVVMBase.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\MVVMInteractivity.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\MVVMBase.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\RaspicamController\bin\Debug\MVVMInteractivity.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\Windows\Debug\RaspicamController.exe.config
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\Windows\Debug\RaspicamController.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\Windows\Debug\RaspicamController.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Client\Windows\Debug\RaspicamController.exe.config
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Client\Windows\Debug\RaspicamController.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Client\Windows\Debug\RaspicamController.pdb
+D:\_code\git\Raspicam\Client\Windows\Debug\RaspicamController.exe.config
+D:\_code\git\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.exe
+D:\_code\git\Raspicam\Code\Client\RaspicamController\obj\Debug\RaspicamController.pdb

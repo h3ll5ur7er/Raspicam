@@ -1,0 +1,12 @@
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\MVVMExample\MVVMInteractivity\bin\Debug\MVVMInteractivity.dll
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\MVVMExample\MVVMInteractivity\bin\Debug\MVVMInteractivity.pdb
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\MVVMExample\MVVMInteractivity\obj\Debug\MVVMInteractivity.dll
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\MVVMExample\MVVMInteractivity\obj\Debug\MVVMInteractivity.pdb
+D:\Benutzerdaten\Emma\Documents\Visual Studio 2015\Projects\MVVMExample\MVVMInteractivity\obj\Debug\MVVMInteractivity.csprojResolveAssemblyReference.cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Lib\MVVMBase\src\MVVMInteractivity\bin\Debug\MVVMInteractivity.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Lib\MVVMBase\src\MVVMInteractivity\bin\Debug\MVVMInteractivity.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Lib\MVVMBase\src\MVVMInteractivity\obj\Debug\MVVMInteractivity.csprojResolveAssemblyReference.cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Lib\MVVMBase\src\MVVMInteractivity\obj\Debug\MVVMInteractivity.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Lib\MVVMBase\src\MVVMInteractivity\obj\Debug\MVVMInteractivity.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\API\MVVM\Debug\MVVMInteractivity.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\API\MVVM\Debug\MVVMInteractivity.pdb

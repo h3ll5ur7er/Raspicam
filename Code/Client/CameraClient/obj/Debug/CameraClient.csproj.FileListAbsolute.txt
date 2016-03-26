@@ -1,0 +1,22 @@
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\bin\Debug\CameraClient.exe.config
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\bin\Debug\CameraClient.exe
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\bin\Debug\CameraClient.pdb
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\bin\Debug\CameraServerAPI.dll
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\bin\Debug\CameraServerAPI.pdb
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\obj\Debug\CameraClient.csprojResolveAssemblyReference.cache
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\obj\Debug\CameraClient.exe
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraClient\obj\Debug\CameraClient.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\bin\Debug\CameraClient.exe.config
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\obj\Debug\CameraClient.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\obj\Debug\CameraClient.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\bin\Debug\CameraClient.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\bin\Debug\CameraClient.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\bin\Debug\CameraServerAPI.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\bin\Debug\CameraServerAPI.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\CameraClient\obj\Debug\CameraClient.csprojResolveAssemblyReference.cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\Windows\Release\CameraClient.exe.config
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\Windows\Release\CameraClient.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Client\Windows\Release\CameraClient.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Client\Windows\Release\CameraClient.exe.config
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Client\Windows\Release\CameraClient.exe
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Client\Windows\Release\CameraClient.pdb

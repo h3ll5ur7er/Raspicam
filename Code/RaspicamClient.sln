@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraClient", "Client\CameraClient\CameraClient.csproj", "{2AC66FA3-BD3E-4505-91F2-436AC1C7234C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraServerAPI", "Shared\CameraServerAPI\CameraServerAPI.csproj", "{BFC08327-0BCC-4F87-9062-641D2C19AE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspicamController", "Client\RaspicamController\RaspicamController.csproj", "{236CEA48-C575-41CA-8A54-5AB8BF176458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMBase", "Lib\MVVMBase\src\MVVMBase\MVVMBase.csproj", "{ECF5E7F2-9596-462A-893E-971BD28D5C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMInteractivity", "Lib\MVVMBase\src\MVVMInteractivity\MVVMInteractivity.csproj", "{71B5CE74-9E5C-486E-9BC6-E7F8A0D857CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AC66FA3-BD3E-4505-91F2-436AC1C7234C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC66FA3-BD3E-4505-91F2-436AC1C7234C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC66FA3-BD3E-4505-91F2-436AC1C7234C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC66FA3-BD3E-4505-91F2-436AC1C7234C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC08327-0BCC-4F87-9062-641D2C19AE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC08327-0BCC-4F87-9062-641D2C19AE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC08327-0BCC-4F87-9062-641D2C19AE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC08327-0BCC-4F87-9062-641D2C19AE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236CEA48-C575-41CA-8A54-5AB8BF176458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236CEA48-C575-41CA-8A54-5AB8BF176458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236CEA48-C575-41CA-8A54-5AB8BF176458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236CEA48-C575-41CA-8A54-5AB8BF176458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF5E7F2-9596-462A-893E-971BD28D5C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF5E7F2-9596-462A-893E-971BD28D5C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF5E7F2-9596-462A-893E-971BD28D5C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF5E7F2-9596-462A-893E-971BD28D5C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B5CE74-9E5C-486E-9BC6-E7F8A0D857CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B5CE74-9E5C-486E-9BC6-E7F8A0D857CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B5CE74-9E5C-486E-9BC6-E7F8A0D857CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B5CE74-9E5C-486E-9BC6-E7F8A0D857CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

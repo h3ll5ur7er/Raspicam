@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/RaspicamServer" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/RaspicamServer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="RaspicamParameters">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ISO" type="xs:int" />
+      <xs:element minOccurs="0" name="addRawBayerData" type="xs:boolean" />
+      <xs:element minOccurs="0" name="awb" type="tns:AWB" />
+      <xs:element minOccurs="0" name="awbgB" type="xs:float" />
+      <xs:element minOccurs="0" name="awbgR" type="xs:float" />
+      <xs:element minOccurs="0" name="brightness" type="xs:int" />
+      <xs:element minOccurs="0" name="contrast" type="xs:int" />
+      <xs:element minOccurs="0" name="drc" type="tns:DRC" />
+      <xs:element minOccurs="0" name="effect" type="tns:Effect" />
+      <xs:element minOccurs="0" name="encoding" type="tns:PictureEncoding" />
+      <xs:element minOccurs="0" name="ev" type="xs:int" />
+      <xs:element minOccurs="0" name="exposure" type="tns:Exposure" />
+      <xs:element minOccurs="0" name="hFlip" type="xs:boolean" />
+      <xs:element minOccurs="0" name="height" type="xs:int" />
+      <xs:element minOccurs="0" name="jpegQuality" type="xs:int" />
+      <xs:element minOccurs="0" name="metering" type="tns:Metering" />
+      <xs:element minOccurs="0" name="mode" type="tns:SensorMode" />
+      <xs:element minOccurs="0" name="roiH" type="xs:float" />
+      <xs:element minOccurs="0" name="roiW" type="xs:float" />
+      <xs:element minOccurs="0" name="roiX" type="xs:float" />
+      <xs:element minOccurs="0" name="roiY" type="xs:float" />
+      <xs:element minOccurs="0" name="rotation" type="xs:int" />
+      <xs:element minOccurs="0" name="saturation" type="xs:int" />
+      <xs:element minOccurs="0" name="sharpness" type="xs:int" />
+      <xs:element minOccurs="0" name="stats" type="xs:boolean" />
+      <xs:element minOccurs="0" name="vFlip" type="xs:boolean" />
+      <xs:element minOccurs="0" name="width" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RaspicamParameters" nillable="true" type="tns:RaspicamParameters" />
+  <xs:simpleType name="AWB">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="off" />
+      <xs:enumeration value="auto" />
+      <xs:enumeration value="sun" />
+      <xs:enumeration value="cloud" />
+      <xs:enumeration value="shade" />
+      <xs:enumeration value="tungsten" />
+      <xs:enumeration value="fluorescent" />
+      <xs:enumeration value="incandescent" />
+      <xs:enumeration value="flash" />
+      <xs:enumeration value="horizon" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AWB" nillable="true" type="tns:AWB" />
+  <xs:simpleType name="DRC">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="off" />
+      <xs:enumeration value="low" />
+      <xs:enumeration value="med" />
+      <xs:enumeration value="high" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DRC" nillable="true" type="tns:DRC" />
+  <xs:simpleType name="Effect">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="none" />
+      <xs:enumeration value="negative" />
+      <xs:enumeration value="solarise" />
+      <xs:enumeration value="sketch" />
+      <xs:enumeration value="denoise" />
+      <xs:enumeration value="emboss" />
+      <xs:enumeration value="oilpaint" />
+      <xs:enumeration value="hatch" />
+      <xs:enumeration value="gpen" />
+      <xs:enumeration value="pastel" />
+      <xs:enumeration value="watercolour" />
+      <xs:enumeration value="film" />
+      <xs:enumeration value="blur" />
+      <xs:enumeration value="saturation" />
+      <xs:enumeration value="colourswap" />
+      <xs:enumeration value="washedout" />
+      <xs:enumeration value="posterise" />
+      <xs:enumeration value="colourpoint" />
+      <xs:enumeration value="colourbalance" />
+      <xs:enumeration value="cartoon" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Effect" nillable="true" type="tns:Effect" />
+  <xs:simpleType name="PictureEncoding">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="jpg" />
+      <xs:enumeration value="bmp" />
+      <xs:enumeration value="gif" />
+      <xs:enumeration value="png" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PictureEncoding" nillable="true" type="tns:PictureEncoding" />
+  <xs:simpleType name="Exposure">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="off" />
+      <xs:enumeration value="auto" />
+      <xs:enumeration value="night" />
+      <xs:enumeration value="nightpreview" />
+      <xs:enumeration value="backlight" />
+      <xs:enumeration value="spotlight" />
+      <xs:enumeration value="sports" />
+      <xs:enumeration value="snow" />
+      <xs:enumeration value="beach" />
+      <xs:enumeration value="verylong" />
+      <xs:enumeration value="fixedfps" />
+      <xs:enumeration value="antishake" />
+      <xs:enumeration value="firework" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Exposure" nillable="true" type="tns:Exposure" />
+  <xs:simpleType name="Metering">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="average" />
+      <xs:enumeration value="spot" />
+      <xs:enumeration value="backlit" />
+      <xs:enumeration value="matrix" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Metering" nillable="true" type="tns:Metering" />
+  <xs:simpleType name="SensorMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Auto" />
+      <xs:enumeration value="m1920x1080at30fps" />
+      <xs:enumeration value="m2592x1944at15fps" />
+      <xs:enumeration value="m2592x1944at1fps" />
+      <xs:enumeration value="m1296x972at42fps" />
+      <xs:enumeration value="m1296x730at49fps" />
+      <xs:enumeration value="m640x480at60fps" />
+      <xs:enumeration value="m640x480at90fps" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SensorMode" nillable="true" type="tns:SensorMode" />
+</xs:schema>

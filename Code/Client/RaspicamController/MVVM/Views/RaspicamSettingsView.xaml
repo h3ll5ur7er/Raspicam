@@ -1,0 +1,339 @@
+﻿<UserControl x:Class="RaspicamController.MVVM.Views.RaspicamSettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <ScrollViewer>
+        <Grid GridExtention.CompactRowDefinitions="auto auto auto auto auto auto auto auto auto auto auto auto">
+            <!-- width | height-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="0">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Width</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding width}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding width_min}" Maximum="{Binding width_max}" Value="{Binding width}" Interval="{Binding width_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Height</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding height}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding height_min}" Maximum="{Binding height_max}" Value="{Binding height}" Interval="{Binding height_step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!-- jpegQuality | -->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="1">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Jpeg Quality</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding jpegQuality}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding jpegQuality_min}" Maximum="{Binding jpegQuality_max}" Value="{Binding jpegQuality}"  Interval="{Binding jpegQuality_step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--sharpness | contrast-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="2">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Sharpness</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding sharpness}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding sharpness_min}" Maximum="{Binding sharpness_max}" Value="{Binding sharpness}" Interval="{Binding sharpness_step}"/>
+                </HeaderedContentControl>
+                
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Contrast</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding contrast}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding contrast_min}" Maximum="{Binding contrast_max}" Value="{Binding contrast}" Interval="{Binding contrast_step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--brightness | saturation-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="3">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Brightness</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding brightness}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding brightness_min}" Maximum="{Binding brightness_max}" Value="{Binding brightness}" Interval="{Binding brightness_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Saturation</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding saturation}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding saturation_min}" Maximum="{Binding saturation_max}" Value="{Binding saturation}" Interval="{Binding saturation_step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--ISO | ev-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="4">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">ISO</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding ISO}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding ISO_min}" Maximum="{Binding ISO_max}" Value="{Binding ISO}" Interval="{Binding ISO_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">EV</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding ev}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding ev_min}" Maximum="{Binding ev_max}" Value="{Binding ev}" Interval="{Binding ev_step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--rotation | mode -->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="5">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Rotation</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding rotation}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding rotation_min}" Maximum="{Binding rotation_max}" Value="{Binding rotation}" Interval="{Binding rotation_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Mode</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding mode}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <ComboBox ItemsSource="{Binding mode_all}" SelectedItem="{Binding mode}"></ComboBox>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--encoding | drc-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="6">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Encoding</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding encoding}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <ComboBox ItemsSource="{Binding encoding_all}" SelectedItem="{Binding encoding}"></ComboBox>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">DRC</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding drc}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <ComboBox ItemsSource="{Binding drc_all}" SelectedItem="{Binding drc}"></ComboBox>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--exposure | awb-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="7">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Exposure</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding exposure}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <ComboBox ItemsSource="{Binding exposure_all}" SelectedItem="{Binding exposure}"></ComboBox>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">AWB</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding awb}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <ComboBox ItemsSource="{Binding awb_all}" SelectedItem="{Binding awb}"></ComboBox>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--effect | metering-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="8">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Effect</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding effect}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <ComboBox ItemsSource="{Binding effect_all}" SelectedItem="{Binding effect}"></ComboBox>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Metering</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding metering}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <ComboBox ItemsSource="{Binding metering_all}" SelectedItem="{Binding metering}"></ComboBox>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--roiX | roiY-->
+            <!--roiW | roiH-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" GridExtention.CompactRowDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="9">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0" Grid.Row="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">ROI X</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding roiX}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding roi_min}" Maximum="{Binding roi_max}" Value="{Binding roiX}" Interval="{Binding roi_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1" Grid.Row="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">ROI Y</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding roiY}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding roi_min}" Maximum="{Binding roi_max}" Value="{Binding roiY}" Interval="{Binding roi_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0" Grid.Row="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">ROI Width</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding roiW}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding roi_min}" Maximum="{Binding roiW_max}" Value="{Binding roiW}" Interval="{Binding roi_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1" Grid.Row="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">ROI Height</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding roiH}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding roi_min}" Maximum="{Binding roiH_max}" Value="{Binding roiH}" Interval="{Binding roi_step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!--awbgB | awbgR-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="10">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">AWB Gains B</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding awbgB}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding awbg_min}" Maximum="{Binding awbg_max}" Value="{Binding awbgB}" Interval="{Binding awbg_step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">AWB Gains R</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding awbgR}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding awbg_min}" Maximum="{Binding awbg_max}" Value="{Binding awbgR}" Interval="{Binding awbg_step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!-- raw | hflip-->
+            <!-- stats | vflip-->
+            <Grid GridExtention.CompactColumnDefinitions="* *" GridExtention.CompactRowDefinitions="* *" Style="{StaticResource SettingsSectionStyle}" Grid.Row="11">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0" Grid.Row="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Add Bayer Data</TextBlock>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <CheckBox IsChecked="{Binding addRawBayerData}"></CheckBox>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1" Grid.Row="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Horizontal Flip</TextBlock>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <CheckBox IsChecked="{Binding hFlip}"></CheckBox>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0" Grid.Row="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Force Stats Recalculation</TextBlock>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <CheckBox IsChecked="{Binding stats}"></CheckBox>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1" Grid.Row="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}">Vertical Flip</TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding vFlip}"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <CheckBox IsChecked="{Binding vFlip}"></CheckBox>
+                </HeaderedContentControl>
+            </Grid>
+            
+            <!-- Template 1
+            <Grid GridExtention.CompactColumnDefinitions="* *">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}"></TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding }"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding _min}" Maximum="{Binding _max}" Value="{Binding }" Interval="{Binding _step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            -->
+            <!-- Template 2
+            <Grid GridExtention.CompactColumnDefinitions="* *">
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="0">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}"></TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding }"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding _min}" Maximum="{Binding _max}" Value="{Binding }" Interval="{Binding _step}"/>
+                </HeaderedContentControl>
+                <HeaderedContentControl Style="{StaticResource SettingsKeyStyle}" Grid.Column="1">
+                    <HeaderedContentControl.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Style="{StaticResource TextBlockStyle}"></TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockStyle}" Text="{Binding }"/>
+                        </StackPanel>
+                    </HeaderedContentControl.Header>
+                    <Slider Minimum="{Binding _min}" Maximum="{Binding _max}" Value="{Binding }" Interval="{Binding _step}"/>
+                </HeaderedContentControl>
+            </Grid>
+            -->
+            
+        </Grid>
+    </ScrollViewer>
+</UserControl>

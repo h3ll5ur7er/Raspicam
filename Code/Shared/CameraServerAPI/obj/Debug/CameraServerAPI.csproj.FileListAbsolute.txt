@@ -1,0 +1,12 @@
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServerAPI\bin\Debug\CameraServerAPI.dll
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServerAPI\bin\Debug\CameraServerAPI.pdb
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServerAPI\obj\Debug\CameraServerAPI.dll
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServerAPI\obj\Debug\CameraServerAPI.pdb
+d:\benutzerdaten\emma\documents\visual studio 2015\Projects\CameraClient\CameraServerAPI\obj\Debug\CameraServerAPI.csprojResolveAssemblyReference.cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\API\Windows\Debug\CameraServerAPI.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\API\Windows\Debug\CameraServerAPI.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Shared\CameraServerAPI\obj\Debug\CameraServerAPI.csprojResolveAssemblyReference.cache
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Shared\CameraServerAPI\obj\Debug\CameraServerAPI.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\Code\Shared\CameraServerAPI\obj\Debug\CameraServerAPI.pdb
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\API\Windows\Debug\CameraServerAPI.dll
+D:\Benutzerdaten\Emma\Desktop\Share\Raspicam\API\Windows\Debug\CameraServerAPI.pdb
