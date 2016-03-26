@@ -10,6 +10,10 @@ The camera interface is realized by abstraction of all "raspistill" parameters a
 
 # Client
 The client is a C#6 WPF MVVM application with GUI to control up to 4 Raspberry Pis.
+
+Note:
+Set IP of the Pi(s) in App.config and start the server on the Pi(s).
+
 Features:
 - Camera setup
 - Remote capture
